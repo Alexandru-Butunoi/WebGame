@@ -1,6 +1,6 @@
-            import * as THREE from '../node_modules/three/build/three.module.js';
+            import * as THREE from './three/build/three.module.js';
 
-			import {PointerLockControls} from '../node_modules/three/examples/jsm/controls/PointerLockControls.js';
+			import {PointerLockControls} from './three/examples/jsm/controls/PointerLockControls.js';
 
 
 			let camera, scene, renderer, controls, world, bodiesList, meshesList;
